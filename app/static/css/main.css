@@ -79,3 +79,10 @@ img{
 
 
 }
+a{
+    color: darkmagenta;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
