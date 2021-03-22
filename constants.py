@@ -1,0 +1,5 @@
+IMAGES_DIR = "app/static/photos/"
+CATS_PATH = IMAGES_DIR + "cats/"
+DOGS_PATH = IMAGES_DIR + "dogs/"
+OTHERS_PATH = IMAGES_DIR + "others/"
+TEMP_PATH = IMAGES_DIR + "temp/"
