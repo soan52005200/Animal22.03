@@ -50,3 +50,32 @@ body {
 .menu li + li{
     padding-left: 10px;
 }
+.load_img{
+    padding-top: 120px;
+    display: inline-block;
+}
+.search{
+    background-color: #4696e5;
+    color: #d0e4f8;
+    padding: 4.5em 0 2.5em 0 ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url("../photos/others/overlay.png"), url("../photos/others/pattern-size1.svg");
+    background-position: top left, center center;
+    background-attachment: fixed, fixed;
+    background-size: auto, cover;
+    height: 20vh;
+    min-height: 35em;
+}
+h2{
+    padding-right: 20px;
+}
+img{
+    border-block-color: cyan;
+    border: 2px solid;
+    padding: 2px;
+    border-radius:5px;
+
+
+}
