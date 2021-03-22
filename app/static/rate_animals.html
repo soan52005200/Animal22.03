@@ -12,7 +12,7 @@
 
 </head>
 <body>
-<div class="header"></div>
+<div class="header"> Какой то текст(надо придумать) </div>
 <nav class="menu" align="right">
     <div class="container">
         <ul>
@@ -23,17 +23,26 @@
         </ul>
     </div>
 </nav>
+<div>
+    <img class="swap" src="photos/others/photo.jpg" alt="">
+</div>
+<div class="container1">
 
-    <style>
-        footer{
-            margin-top: 600px;
-        }
-    </style>
+
     <div class="cont">
         <form method="post">
+
             <div id="photos_animals" class="photos_animals"></div>
+            <center>
+
+            <a href="#" class="previous">&laquo; Previous</a>
+            <a href="#" class="next">Next &raquo;</a>
+
+
             <a><input type="submit" class='left-btn' name="like" value="like"/></a>
             <a><input type="submit" class='right-btn' name="unlike" value="unlike"/></a>
+
+            </center>
         </form>
     </div>
     <script type="text/javascript">
@@ -59,7 +68,7 @@
         }
         generateHtmlForImg({{ data|safe }});
     </script>
-
+</div>
 <footer class="py-3">
     <div class="container">
         <div class="social-icons mt-lg-3 mt-2 text-center">
