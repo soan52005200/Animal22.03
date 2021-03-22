@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Сайт про животных</title>
+    <title>Тип животного</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" >
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
@@ -13,22 +13,45 @@
 
 </head>
 <body>
-    <div class="header"></div>
-    <nav class="menu" align="right">
-        <div class="container">
+<div class="header"></div>
+<nav class="menu" align="right">
+    <div class="container">
         <ul>
             <li><a href="index.html">Главная</a></li>
             <li><a href="rate_animals.html">Оценить животное</a></li>
             <li><a href="get_type_animal.html">Тип животного</a></li>
             <li><a href="about_animals.html">О животных</a></li>
         </ul>
-        </div>
-    </nav>
+    </div>
+</nav>
+<!--{% extends 'base.html' %}
 
-<!--{% block body %}{% endblock %-->
+{% block title %}
+    Тип животного
+{% endblock %}
 
-    <footer class="py-3">
-        <div class="container">
+
+{% block body %}-->
+    <style>
+        footer{
+            margin-top: 600px;
+        }
+
+        .load_img{
+            padding-top: 120px;
+            display: inline-block;
+        }
+    </style>
+
+    <div class="load_img">
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="submit" value="Загрузить">
+        </form>
+    </div>
+
+<footer class="py-3">
+    <div class="container">
         <div class="social-icons mt-lg-3 mt-2 text-center">
             <ul>
                 <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -41,9 +64,9 @@
                © 2021 Name Site. All Rights Reserved
             </span>
         </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 <!-- CDN подключение иконок fontawesome -->
-    <script src="https://use.fontawesome.com/df966d76e1.js"></script>
+<script src="https://use.fontawesome.com/df966d76e1.js"></script>
 </body>
 </html>
